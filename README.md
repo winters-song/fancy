@@ -10,7 +10,7 @@
 
   [Youtube Link](https://www.youtube.com/watch?v=j1Wr-jiodpo)
 
-  ![Alt text](https://github.com/winters-song/fancy/master/ScreenShots/dancing_box.png)
+  ![Alt text](https://github.com/winters-song/fancy/blob/main/ScreenShots/dancing_box.png)
   
 ---
 
@@ -19,7 +19,7 @@
 
   [Youtube Link](https://www.youtube.com/watch?v=nOdDtnHWaDo)
 
-  ![Alt text](https://github.com/winters-song/fancy/master/ScreenShots/ambient_light.png)
+  ![Alt text](https://github.com/winters-song/fancy/blob/main/ScreenShots/ambient_light.png)
   
 ---
 
@@ -29,5 +29,5 @@
 
   [Demo Link](https://www.bysj.cc/)
 
-  ![Alt text](https://github.com/winters-song/fancy/master/ScreenShots/room.png)
+  ![Alt text](https://github.com/winters-song/fancy/blob/main/ScreenShots/room.png)
   
