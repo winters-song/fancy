@@ -25,7 +25,7 @@
 
 ## Room
 
-  3D房间: [View Demo](https://winters-song.github.io/fancy/ambient_light/)
+  3D房间: [View Demo](https://winters-song.github.io/fancy/room/)
 
   ![Alt text](https://github.com/winters-song/fancy/blob/main/ScreenShots/room.png)
   
