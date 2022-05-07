@@ -50,17 +50,17 @@
 /***********************/
 /***********************/
 /**/
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  user-select: none;
-  transform-style: preserve-3d;
-  -webkit-tap-highlight-color: transparent;
-  user-select: none;
-  outline: none;
-  appearance: none;
-}
+/**, *::after, *::before {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  box-sizing: border-box;*/
+/*  user-select: none;*/
+/*  transform-style: preserve-3d;*/
+/*  -webkit-tap-highlight-color: transparent;*/
+/*  user-select: none;*/
+/*  outline: none;*/
+/*  appearance: none;*/
+/*}*/
 
 /* Generic */
 body {
@@ -83,6 +83,7 @@ body {
   align-items: center;
 }
 
+
 /***************/
 /***************/
 .room,
@@ -91,7 +92,12 @@ body {
   width: 30vw;
   height: 45vw;
   transform: perspective(10000px) rotateX(60deg) rotateZ(55deg) translateZ(-8vw);
-  transition: transform 100ms linear;
+  transition: transform 200ms ease-out;
+  transform-style: preserve-3d;
+}
+
+.room div{
+  transform-style: preserve-3d;
 }
 
 .shadow1, .shadow2, .shadow3, .shadow4, .shadow5, .shadow6 {
@@ -175,6 +181,7 @@ body {
 
 /***************/
 /***************/
+/* 地板 */
 .at {
   position: absolute;
   top: 0vw;
@@ -211,6 +218,7 @@ body {
   height: 37vw;
   transform-origin: top left;
   transform: translateZ(0.6vw);
+  transform-style: preserve-3d;
 }
 .at__bottom {
   width: 30vw;
@@ -274,6 +282,7 @@ body {
   height: 6vw;
 }
 
+/* 窗户下墙 */
 .ab {
   position: absolute;
   top: 37vw;
